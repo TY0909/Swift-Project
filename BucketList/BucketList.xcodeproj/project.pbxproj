@@ -7,18 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B90BB3592B47D6DB00E9C1A7 /* ContentVIew-VIewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90BB3582B47D6DB00E9C1A7 /* ContentVIew-VIewModel.swift */; };
+		B90BB35B2B47DA2000E9C1A7 /* FileManager-DocumentDirectory.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90BB35A2B47DA2000E9C1A7 /* FileManager-DocumentDirectory.swift */; };
 		B9274ACD2B3FE7DD00BB2F94 /* BucketListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9274ACC2B3FE7DD00BB2F94 /* BucketListApp.swift */; };
 		B9274ACF2B3FE7DD00BB2F94 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9274ACE2B3FE7DD00BB2F94 /* ContentView.swift */; };
 		B9274AD12B3FE7DE00BB2F94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9274AD02B3FE7DE00BB2F94 /* Assets.xcassets */; };
 		B9274AD42B3FE7DE00BB2F94 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9274AD32B3FE7DE00BB2F94 /* Preview Assets.xcassets */; };
+		B937EAF32B493B360017FA5F /* EditView-ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B937EAF22B493B360017FA5F /* EditView-ViewModel.swift */; };
+		B992715C2B4649B00059BCB3 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = B992715B2B4649B00059BCB3 /* Result.swift */; };
+		B9C734F02B44FB0A0019C475 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9C734EF2B44FB0A0019C475 /* Location.swift */; };
+		B9C734F22B4551550019C475 /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9C734F12B4551550019C475 /* EditView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B90BB3582B47D6DB00E9C1A7 /* ContentVIew-VIewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentVIew-VIewModel.swift"; sourceTree = "<group>"; };
+		B90BB35A2B47DA2000E9C1A7 /* FileManager-DocumentDirectory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FileManager-DocumentDirectory.swift"; sourceTree = "<group>"; };
 		B9274AC92B3FE7DD00BB2F94 /* BucketList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BucketList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9274ACC2B3FE7DD00BB2F94 /* BucketListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketListApp.swift; sourceTree = "<group>"; };
 		B9274ACE2B3FE7DD00BB2F94 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B9274AD02B3FE7DE00BB2F94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B9274AD32B3FE7DE00BB2F94 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B937EAF22B493B360017FA5F /* EditView-ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EditView-ViewModel.swift"; sourceTree = "<group>"; };
+		B992715B2B4649B00059BCB3 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		B9C734EF2B44FB0A0019C475 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		B9C734F12B4551550019C475 /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +65,12 @@
 			children = (
 				B9274ACC2B3FE7DD00BB2F94 /* BucketListApp.swift */,
 				B9274ACE2B3FE7DD00BB2F94 /* ContentView.swift */,
+				B9C734EF2B44FB0A0019C475 /* Location.swift */,
+				B90BB35A2B47DA2000E9C1A7 /* FileManager-DocumentDirectory.swift */,
+				B90BB3582B47D6DB00E9C1A7 /* ContentVIew-VIewModel.swift */,
+				B992715B2B4649B00059BCB3 /* Result.swift */,
+				B9C734F12B4551550019C475 /* EditView.swift */,
+				B937EAF22B493B360017FA5F /* EditView-ViewModel.swift */,
 				B9274AD02B3FE7DE00BB2F94 /* Assets.xcassets */,
 				B9274AD22B3FE7DE00BB2F94 /* Preview Content */,
 			);
@@ -138,7 +156,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				B9274ACF2B3FE7DD00BB2F94 /* ContentView.swift in Sources */,
+				B992715C2B4649B00059BCB3 /* Result.swift in Sources */,
+				B9C734F02B44FB0A0019C475 /* Location.swift in Sources */,
+				B9C734F22B4551550019C475 /* EditView.swift in Sources */,
 				B9274ACD2B3FE7DD00BB2F94 /* BucketListApp.swift in Sources */,
+				B937EAF32B493B360017FA5F /* EditView-ViewModel.swift in Sources */,
+				B90BB35B2B47DA2000E9C1A7 /* FileManager-DocumentDirectory.swift in Sources */,
+				B90BB3592B47D6DB00E9C1A7 /* ContentVIew-VIewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,11 +298,13 @@
 				DEVELOPMENT_ASSET_PATHS = "\"BucketList/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "unlock you saved places";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,11 +328,13 @@
 				DEVELOPMENT_ASSET_PATHS = "\"BucketList/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "unlock you saved places";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
